@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+body, html {
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-image: url(../img/dark.jpeg);
+    background-repeat: no-repeat; /* Prevents repeating */
+    background-size: cover; /* Ensures it covers the full area */
+    background-position: center center; /* Centers the image */
+    background-attachment: fixed; 
+}
+
+.bigCont{
+    gap:80px;
+    height: 90vh;
+    border: solid green 3px;
+    padding: 20px 5px 20px 50px;
+    background-color: white;
+}
+
+.rightCont{
+    height: 85vh;
+    /* background-image: url(../img/images.jpeg); */
+    background-color: rgb(78, 22, 91);
+}
+
+.textLogin{
+    color: rgb(189, 75, 113);
+}
+
+.icons i{
+    background-color:  rgb(189, 75, 113);
+    /* width: 30px; */
+    /* aspect-ratio: 1/1; */
+    padding: 20px;
+    border-radius: 50%;
+    font-size: 17px;
+    color: white;
+    transition: all 0.3s 10ms;
+    margin-right: 20px;
+}
+.icons i:hover{
+    background-color: black;
+    transform: translatey(5px);
+    transition: all 0.3s 10ms;
+    cursor: pointer;
+}
+
+/* .inputss{
+    position: relative;
+} */
+
+.input i{
+    padding: 5px;
+    position: absolute;
+    right: 20px;
+    top: 34%;
+
+}
+.btn1{
+    background-color: rgb(95, 62, 126);
+}
