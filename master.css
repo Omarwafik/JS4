@@ -35,13 +35,15 @@ body, html {
 
 .icons i{
     background-color:  rgb(189, 75, 113);
-    /* width: 30px; */
-    /* aspect-ratio: 1/1; */
-    padding: 20px;
+    width: 50px; 
+    aspect-ratio: 1 / 1;
     border-radius: 50%;
     font-size: 17px;
     color: white;
     transition: all 0.3s 10ms;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 20px;
 }
 .icons i:hover{
