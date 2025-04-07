@@ -34,18 +34,17 @@ a{
     text-align: center;
     color: rgb(0, 0, 0);
     text-decoration-line: none;
-    transition: all 10ms .5ms;
+    transition: all 0.3s 10ms;
     
 }
 
 a:hover{
-    font-size:16px;
-    opacity: .7;
-    /* padding: 10px; */
-    transition: all 0.4s 30ms;
+    font-size:15px;
+    font-weight: bold;
+    transition: all 0.3s 10ms;
+    
     
 }
-
 .card-cont{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
